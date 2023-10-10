@@ -26,18 +26,20 @@
 
 let slides, dots;
 let slideIndex = 1;
-projectCount = 3;
+projectCount = 15;
 let slideContainer;
 let audio;
-audio = new Audio(`audio${slideIndex}.mp3`);
-let name = ["name1", "name2", "name3"];
-let text = ["text1", "text2", "text3"];
+audio = new Audio(`audio/audio${slideIndex}.mp3`);
+audio.play();
+console.log(audio)
+let name = ["Charlemagne,Natalya", "Chen,Junzhe", "Chen,Victoria", "Cheng,Joy", "Cui,Jinghan", "Dorado,Chynna Julienne", "Gu,Elizabeth", "Katakis,Irene", "Lin,Leah", "Pan,Evan", "Shao,Cicci", "Xie,Qiran", "Yu,Sixian", "Zhang,Alina", "Zinchenko,Dana"];
+let text = ["Hold On by The Internet", "崂山道士 by 马思唯", "GHETTO GATSBY FEAT. ALICIA KEYS by Brent Faiyaz", "Cool With You by NewJeans", "City Of Stars by Justin Hurwitz", "Uhaw (Tayong Lahat) by Dilaw", "Salvatore by Lana Del Rey", "Fly Me To The Moon by Frank Sinatra", "蝉鸣的意义是帮我想你 by Luoli Chen", "Resonance by Odyssey", "Dice by NMIXX", "Summer Feelings by Lennon Stella & Charlie Puth", "In Cold Blood by Alt-J", "Seven by Taylor Swift", "Disfruto by Carla Morrison"];
 
 window.addEventListener("load", function(event) {
   slideContainer = document.getElementById("slideshow-container");
   console.log(slideContainer)
   for(let i = 0; i < projectCount; i++){
-    slideContainer.innerHTML += `<div class="mySlides fade">`+`<img src="img${i+1}.png" class="img" style="width:50%">`+`<div class="text">${name[i]}</div>`+`<div class="text2">${text[i]}</div>`+`</div>`
+    slideContainer.innerHTML += `<div class="mySlides fade">`+`<img src="img/img${i+1}.png" class="img" style="width:40%">`+`<div class="text">${name[i]}</div>`+`<div class="text2">${text[i]}</div>`+`</div>`
   }
   slides = document.getElementsByClassName("mySlides");
   dots = document.getElementsByClassName("dot");
@@ -48,7 +50,7 @@ window.addEventListener("load", function(event) {
 function plusSlides(n) {
   audio.pause();
   showSlides(slideIndex += n);
-  audio = new Audio(`audio${slideIndex}.mp3`);
+  audio = new Audio(`audio/audio${slideIndex}.mp3`);
   audio.play();
 
 }

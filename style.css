@@ -63,23 +63,23 @@ img {vertical-align: middle;}
 .text {
   color: black;
   font-size: 15px;
-  padding: 0px 12px;
-  position: absolute;
+  padding: 30px 12px 10px 12px;
+  /* position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
-  top: 70vh;
+  top: 80vh; */
 }
 
 .text2 {
   color: black;
   font-size: 15px;
   padding: 0px 12px;
-  position: absolute;
+  /* position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
-  top: 74vh;
+  top: 84vh; */
 }
 
 /* Number text (1/3 etc) */
