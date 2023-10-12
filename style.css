@@ -40,7 +40,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -61,7 +61,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: black;
+  color: white;
   font-size: 15px;
   padding: 30px 12px 10px 12px;
   /* position: absolute;
@@ -72,7 +72,7 @@ img {vertical-align: middle;}
 }
 
 .text2 {
-  color: black;
+  color: white;
   font-size: 15px;
   padding: 0px 12px;
   /* position: absolute;
