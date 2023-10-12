@@ -140,6 +140,7 @@ img {vertical-align: middle;}
   font-size: 10px;
   border: none;
   cursor: pointer;
+  display: none;
 }
 
 /* 容器 <div> - 需要定位下拉内容 */
