@@ -2,14 +2,14 @@
 
 let slides, dots;
 let slideIndex = 1;
-projectCount = 14;
+projectCount = 12;
 let slideContainer;
 let audio;
-audio = new Audio(`audio_ian/audio${slideIndex}.mp3`);
+audio = new Audio(`audio_wuwei/audio${slideIndex}.mp3`);
 audio.play();
 console.log(audio)
-let name = ["Santiago Hernandez", "Arnold Shin", "Rigual Assis", "Wanyu Chen", "Xinyu Chen", "Tania Hartanto", "Silas Sui", "Angie Uytingco", "Luara Velasco", "Lein Wu", "Chenhan Xu", "Nuo Xu", "Tansholpan Zhanabekova", "Han Zhang"];
-let text = ["I Want To Leave", "Trying to Feel Alive by Porter Robinson", "08 Pale Court - Hollow Knight OST album", "Shawn Mendes - Wonder", "Apocalypse", "will he by joji", "Rise And Shine by Robert Glasper", "東京フラッシュ / Vaundy", "MORA - TUYO", "Limbo", "The Dream of Flight", "Richard Clayderman-蓝色狂想曲", "James Bay - Let It Go", "Ludovico Einaudi - Experience"];
+let name = ["Ryan Hiew", "Shahd Kamal", "Beichen Li", "Calvin Lin", "Karla Liwanes", "Anita Luo", "Fangfei Rong", "Jenna Sun", "Denny Wang", "Katy Wang", "Alex Wu", "William Zheng"];
+let text = [" ", "Enta Omry - Umm Kulthum", " ", "指紋 by 杜宣達", "Olivia Rodrigo - bad idea right", "AURORA Animal", " ", "Umm… Life", "Zack_Hemsey - The Way", "Head Over Heels", "Von Citizen&ichika - Sanctuary", "ma mère l'oye"];
 
 let sectionBtn;
 
@@ -23,7 +23,7 @@ window.addEventListener("load", function(event) {
   slideContainer = document.getElementById("slideshow-container");
   console.log(slideContainer)
   for(let i = 0; i < projectCount; i++){
-    slideContainer.innerHTML += `<div class="mySlides fade">`+`<img src="img_ian/img${i+1}.png" class="img" style="width:40%">`+`<div class="text">${name[i]}</div>`+`<div class="text2">${text[i]}</div>`+`</div>`
+    slideContainer.innerHTML += `<div class="mySlides fade">`+`<img src="img_wuwei/img${i+1}.png" class="img" style="width:40%">`+`<div class="text">${name[i]}</div>`+`<div class="text2">${text[i]}</div>`+`</div>`
   }
   slides = document.getElementsByClassName("mySlides");
   dots = document.getElementsByClassName("dot");
@@ -36,7 +36,7 @@ window.addEventListener("load", function(event) {
 function plusSlides(n) {
   audio.pause();
   showSlides(slideIndex += n);
-  audio = new Audio(`audio_ian/audio${slideIndex}.mp3`);
+  audio = new Audio(`audio_wuwei/audio${slideIndex}.mp3`);
   audio.play();
 
 }
