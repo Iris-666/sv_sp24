@@ -35,6 +35,13 @@ console.log(audio)
 let name = ["Charlemagne,Natalya", "Chen,Junzhe", "Chen,Victoria", "Cheng,Joy", "Cui,Jinghan", "Dorado,Chynna Julienne", "Gu,Elizabeth", "Katakis,Irene", "Lin,Leah", "Pan,Evan", "Shao,Cicci", "Xie,Qiran", "Yu,Sixian", "Zhang,Alina", "Zinchenko,Dana"];
 let text = ["Hold On by The Internet", "崂山道士 by 马思唯", "GHETTO GATSBY FEAT. ALICIA KEYS by Brent Faiyaz", "Cool With You by NewJeans", "City Of Stars by Justin Hurwitz", "Uhaw (Tayong Lahat) by Dilaw", "Salvatore by Lana Del Rey", "Fly Me To The Moon by Frank Sinatra", "蝉鸣的意义是帮我想你 by Luoli Chen", "Resonance by Odyssey", "Dice by NMIXX", "Summer Feelings by Lennon Stella & Charlie Puth", "In Cold Blood by Alt-J", "Seven by Taylor Swift", "Disfruto by Carla Morrison"];
 
+let sectionBtn;
+
+function disappear(){
+  console.log("disappear")
+  sectionBtn.style.display = "none";
+}
+
 window.addEventListener("load", function(event) {
   slideContainer = document.getElementById("slideshow-container");
   console.log(slideContainer)
@@ -44,6 +51,7 @@ window.addEventListener("load", function(event) {
   slides = document.getElementsByClassName("mySlides");
   dots = document.getElementsByClassName("dot");
   showSlides(slideIndex);
+  sectionBtn = document.getElementById("dropdown");
 });
 
 
@@ -58,6 +66,8 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+
 
 function showSlides(n) {
   let i;
@@ -74,3 +84,14 @@ function showSlides(n) {
 
   //play audio
 }
+
+document.addEventListener("keydown", (event) => {
+  var keyName = event.key;
+  var keyCode = event.code;
+  console.log(keyName);
+  if(keyName == "a"){
+    plusSlides(-1);
+  }else if(keyName == "b"){
+    plusSlides(1);
+  }
+})
