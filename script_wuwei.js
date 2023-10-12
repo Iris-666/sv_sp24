@@ -2,14 +2,14 @@
 
 let slides, dots;
 let slideIndex = 1;
-projectCount = 12;
+projectCount = 13;
 let slideContainer;
 let audio;
 audio = new Audio(`audio_wuwei/audio${slideIndex}.mp3`);
 audio.play();
 console.log(audio)
-let name = ["Ryan Hiew", "Shahd Kamal", "Beichen Li", "Calvin Lin", "Karla Liwanes", "Anita Luo", "Fangfei Rong", "Jenna Sun", "Denny Wang", "Katy Wang", "Alex Wu", "William Zheng"];
-let text = [" ", "Enta Omry - Umm Kulthum", " ", "指紋 by 杜宣達", "Olivia Rodrigo - bad idea right", "AURORA Animal", " ", "Umm… Life", "Zack_Hemsey - The Way", "Head Over Heels", "Von Citizen&ichika - Sanctuary", "ma mère l'oye"];
+let name = ["Ryan Hiew", "Shahd Kamal", "Beichen Li", "Calvin Lin", "Karla Liwanes", "Anita Luo", "Fangfei Rong", "Jenna Sun", "Denny Wang", "Katy Wang", "Alex Wu", "William Zheng", "Shuyu Li"];
+let text = [" ", "Enta Omry - Umm Kulthum", " ", "指紋 by 杜宣達", "Olivia Rodrigo - bad idea right", "AURORA Animal", " ", "Umm… Life", "Zack_Hemsey - The Way", "Head Over Heels", "Von Citizen&ichika - Sanctuary", "ma mère l'oye", "ANOHNI- 4 DEGREES"];
 
 let sectionBtn;
 
