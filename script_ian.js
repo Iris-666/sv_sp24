@@ -8,8 +8,8 @@ let audio;
 audio = new Audio(`audio_ian/audio${slideIndex}.mp3`);
 audio.play();
 console.log(audio)
-let name = ["Azaliia Abdullina", "Arnold Shin", "Rigual Assis", "Wanyu Chen", "Xinyu Chen", "Tania Hartanto", "Silas Sui", "Angie Uytingco", "Luara Velasco", "Lein Wu", "Chenhan Xu", "Nuo Xu", "Tansholpan Zhanabekova", "Han Zhang"];
-let text = ["I Want To Leave", "Trying to Feel Alive by Porter Robinson", "08 Pale Court - Hollow Knight OST album", "Shawn Mendes - Wonder", "Apocalypse", "will he by joji", "Rise And Shine by Robert Glasper", "東京フラッシュ / Vaundy", "MORA - TUYO", "Limbo", "The Dream of Flight", "Richard Clayderman-蓝色狂想曲", "James Bay - Let It Go", "Ludovico Einaudi - Experience"];
+let name = ["Azaliia Abdullina", "Arnold Shin", "Rigual Assis", "Wanyu Chen", "Xinyu Chen", "Tania Hartanto", "Silas Sui", "Angie Uytingco", "Luara Velasco", "Lein Wu", "Chenhan Xu", "Tansholpan Zhanabekova", "Han Zhang"];
+let text = ["I Want To Leave", "Trying to Feel Alive by Porter Robinson", "08 Pale Court - Hollow Knight OST album", "Shawn Mendes - Wonder", "Apocalypse", "will he by joji", "Rise And Shine by Robert Glasper", "東京フラッシュ / Vaundy", "MORA - TUYO", "Limbo", "The Dream of Flight",  "James Bay - Let It Go", "Ludovico Einaudi - Experience"];
 
 let sectionBtn;
 
