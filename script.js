@@ -26,7 +26,7 @@
 
 let slides, dots;
 let slideIndex = 1;
-projectCount = 15;
+projectCount = 41;
 let slideContainer;
 let audio;
 audio = new Audio(`audio/audio${slideIndex}.mp3`);
