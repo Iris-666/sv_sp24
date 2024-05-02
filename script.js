@@ -26,14 +26,14 @@
 
 let slides, dots;
 let slideIndex = 1;
-projectCount = 41;
+projectCount = 21;
 let slideContainer;
 let audio;
 audio = new Audio(`audio/audio${slideIndex}.mp3`);
 audio.play();
 console.log(audio)
-let name = ["Charlemagne,Natalya", "Chen,Junzhe", "Chen,Victoria", "Cheng,Joy", "Cui,Jinghan", "Dorado,Chynna Julienne", "Gu,Elizabeth", "Katakis,Irene", "Lin,Leah", "Pan,Evan", "Shao,Cicci", "Xie,Qiran", "Yu,Sixian", "Zhang,Alina", "Zinchenko,Dana","Azaliia Abdullina", "Arnold Shin", "Rigual Assis", "Wanyu Chen", "Xinyu Chen", "Tania Hartanto", "Silas Sui", "Angie Uytingco", "Luara Velasco", "Lein Wu", "Chenhan Xu", "Tansholpan Zhanabekova", "Han Zhang","Ryan Hiew", "Shahd Kamal", "Beichen Li", "Calvin Lin", "Karla Liwanes", "Anita Luo", "Fangfei Rong", "Jenna Sun", "Denny Wang", "Katy Wang", "Alex Wu", "William Zheng", "Shuyu Li"];
-let text = ["Hold On by The Internet", "崂山道士 by 马思唯", "GHETTO GATSBY FEAT. ALICIA KEYS by Brent Faiyaz", "Cool With You by NewJeans", "City Of Stars by Justin Hurwitz", "Uhaw (Tayong Lahat) by Dilaw", "Salvatore by Lana Del Rey", "Fly Me To The Moon by Frank Sinatra", "蝉鸣的意义是帮我想你 by Luoli Chen", "Resonance by Odyssey", "Dice by NMIXX", "Summer Feelings by Lennon Stella & Charlie Puth", "In Cold Blood by Alt-J", "Seven by Taylor Swift", "Disfruto by Carla Morrison","I Want To Leave", "Trying to Feel Alive by Porter Robinson", "08 Pale Court - Hollow Knight OST album", "Shawn Mendes - Wonder", "Apocalypse", "will he by joji", "Rise And Shine by Robert Glasper", "東京フラッシュ / Vaundy", "MORA - TUYO", "Limbo", "The Dream of Flight",  "James Bay - Let It Go", "Ludovico Einaudi - Experience"," ", "Enta Omry - Umm Kulthum", " ", "指紋 by 杜宣達", "Olivia Rodrigo - bad idea right", "AURORA Animal", " ", "Umm… Life", "Zack_Hemsey - The Way", "Head Over Heels", "Von Citizen&ichika - Sanctuary", "ma mère l'oye", "ANOHNI- 4 DEGREES"];
+let name = ["Charlotte Gao", "Christine Cao", "Florence Jiang", "Helen Zhou", "Katelyn Sum", "Nina Chen", "Roman O'Brien", "Shanze Fatima Javed", "Vivian Wang", "Yancy Tavares", "Yvonne Xu", "Isabella Liu", "Jingran Zhang", "Sihong Shen", "Yixi Yu","Yunchu Qin", "Haya Faisal", "Astroyd Kang", "Daiyu Tamaki", "Julieta Vazquez Martinez", "Zishan Qiu"];
+let text = ["Comptine D Un Autre éTé", "Novo Amor - Colourway", "John Powell - Test Drive", "Madison Beer - Showed Me", "BANG YEDAM - Miss You", "Dive Back In Time", "Romeo Juliet", "Just Relax", "TWICE - I GOT YOU", "Yancy Jairo - All I See", "Julia Kent - Tourbillon", "Lana Del Rey - California", "Austyn Johnson, Cameron Seely, Hugh Jackman - A Million Dreams", "MONACA, 植松伸夫, 岡部啓一 - カイネ", "Green Tara's Thousands of Sorrowful Blossoms (萬千花蕊慈母悲哀）","", "Imagine Dragons - Demons", "The Conqueror Worm II", "", "TIMØ, Andrés Cepeda - Conquistar El Planeta", "和田薫 (わだかおる) - 時代を越える想い II"];
 
 let sectionBtn;
 
